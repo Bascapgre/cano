@@ -1,0 +1,53 @@
+
+[gameplay]
+	#Enable Inventory Trim Slabs from this addon.
+	enableTrimSlabs = true
+	#Allow Inventory Trim Slab placement.
+	allowTrimSlabPlacement = true
+	#Allow Inventory Trim Slab crafting recipes.
+	allowTrimSlabRecipes = true
+	#Allow Inventory Trim Slabs from this addon to be painted with the Paint Kit.
+	allowTrimSlabPainting = true
+	#Mirror light emission from the copied paint source onto painted trim slabs.
+	#When disabled, painted trim slabs keep the copied texture/state but emit no copied block light.
+	mirrorPaintedBlockLightEmission = true
+	#Mirror passive particle and animateTick effects from the copied paint source onto painted trim slabs.
+	#When disabled, painted trim slabs keep the copied texture/state but do not emit copied particles.
+	mirrorPaintedBlockParticleEmission = true
+
+[textures]
+	#Requested texture source for trim slab top/bottom faces.
+	#TOMS = prefer Tom's Simple Storage inventory trim texture.
+	#EXT = prefer the addon trim texture.
+	#If the requested texture is missing, the resolver falls back to the local addon texture and logs a warning.
+	#Allowed Values: TOMS, ADDON
+	trimTopBottomSource = "TOMS"
+	#Requested texture source for the double slab / full block trim model.
+	#TOMS = prefer Tom's Simple Storage inventory trim texture.
+	#EXT = prefer the addon trim texture.
+	#If the requested texture is missing, the resolver falls back to the local addon texture and logs a warning.
+	#Allowed Values: TOMS, ADDON
+	trimDoubleSlabSource = "TOMS"
+	#Selects the slab side texture variant.
+	#1 = trim_slab_1.png
+	#2 = trim_slab_2.png
+	#Range: 1 ~ 2
+	trimSlabSideVariant = 2
+
+[facade_overrides]
+	#User-facing facade override mappings.
+	#Format: full_block_id=slab_block_id
+	#Examples:
+	#minecraft:bricks=minecraft:brick_slab
+	#minecraft:quartz_block=minecraft:quartz_slab
+	#some_mod:pavers=some_mod:paver_slab
+	#
+	#These mappings are used before heuristic lookup.
+	#Both directions are derived automatically:
+	#full -> slab and slab -> full.
+	mappings = ["minecraft:bricks=minecraft:brick_slab", "minecraft:quartz_block=minecraft:quartz_slab", "minecraft:smooth_stone=minecraft:smooth_stone_slab"]
+	#Namespace priority for auto-discovered full<->slab mappings.
+	#Earlier entries win when multiple slab/full candidates exist.
+	#Examples: minecraft, another_mod, custom_building
+	namespacePriority = ["minecraft"]
+

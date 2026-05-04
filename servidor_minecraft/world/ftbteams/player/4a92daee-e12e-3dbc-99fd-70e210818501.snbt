@@ -1,0 +1,17 @@
+{
+	id: "4a92daee-e12e-3dbc-99fd-70e210818501"
+	type: "player"
+	player_name: "alejo"
+	ranks: {
+		4a92daee-e12e-3dbc-99fd-70e210818501: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "alejo"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9DFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

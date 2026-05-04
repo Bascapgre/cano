@@ -1,0 +1,17 @@
+{
+	id: "3f309b47-582d-32d1-a75b-b145d38dd796"
+	type: "player"
+	player_name: "ALEJANDROZL1"
+	ranks: {
+		3f309b47-582d-32d1-a75b-b145d38dd796: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ALEJANDROZL1"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF9B59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

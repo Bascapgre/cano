@@ -1,0 +1,17 @@
+{
+	id: "d84d2f8b-4bbd-329e-953b-3960c4e6634a"
+	type: "player"
+	player_name: "Bascap"
+	ranks: {
+		d84d2f8b-4bbd-329e-953b-3960c4e6634a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Bascap"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF6459"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
